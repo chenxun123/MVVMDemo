@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  reactivecocoaProjectDemo
+//  Created by peter on 2019/4/28.
+//  Copyright © 2019年 peter. All rights reserved.
+//$(SRCROOT)/reactivecocoaProjectDemo/PrefixHeader.pch
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Masonry.h>
+#import <ReactiveObjC.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <iCarousel.h>
+#import <RealReachability.h>
+#import "Tool/Configure/HTConst.h"
+#import "HTConst.h"
+#import <CommonElement.h>
+#import "Tool/Configure/HTConfig.h"
+#import "AppDelegate.h"
+#import "HTNetWorking.h"
+
+
+
+#import "CXCityListModel.h"
+
+#endif /* PrefixHeader_pch */
